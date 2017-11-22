@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/StartActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_bg"
+    android:orientation="vertical"
+    tools:context=".StartActivity" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="218dp"
+        android:layout_weight="0.20" >
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/start_layout">
+
+        <Button
+            android:id="@+id/button_searchhosts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_searchhosts" 
+            android:onClick="onSearchHostsClick"
+            android:textSize="25sp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#09273f"/>
+        
+		<Button
+            android:id="@+id/button_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_gotosettings"
+            android:onClick="onSettingClick"
+            android:textSize="25sp" 
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#09273f"/>
+		
+        <Button
+            android:id="@+id/button_starthost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_starthost"
+            android:onClick="onStartHostClick" 
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#09273f"/>
+
+       
+
+    </LinearLayout>
+
+</LinearLayout>

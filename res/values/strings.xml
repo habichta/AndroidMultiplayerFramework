@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Splunk</string>
+    <string name="startGame_button">Start Game</string>
+    <string name="title_activity_abstract_host">AbstractHostActivity</string>
+    <string name="title_activity_abstract_lobby">AbstractLobbyActivity</string>
+    <string name="title_activity_abstract_player">AbstractPlayerActivity</string>
+    <string name="title_activity_abstract_start">AbstractStartActivity</string>
+    <string name="title_activity_start">Splunk</string>
+    <string name="title_activity_lobby">Splunk - Lobby</string>
+    <string name="title_activity_host">Splunk - Playing</string>
+    <string name="title_activity_player">Splunk - Player</string>
+    <string name="title_activity_setting">Splunk - Settings</string>
+    <string name="test_start">Test Start Activity</string>
+    <string name="test_host">Test Host Activity</string>
+    <string name="button_starthost">Create Host</string>
+    <string name="button_searchhosts">Search Hosts</string>
+    <string name="button_stopsearchhosts">Stop Search</string>
+    <string name="label_select_name">Name: </string>
+    <string name="button_savesettings">Save</string>
+    <string name="button_gotosettings">Settings</string>
+    <string name="title_activity_abstract_start_game">AbstractStartGameActivity</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="button_setvisible">Make Device Visible</string>
+    <string name="hostSearchDialog">Looking for hosts...</string>
+    <string name="waitingForPlayers">Waiting for players...</string>
+
+    <string-array name="orientations">
+        <item>FRONT</item>
+        <item>LEFT</item>
+        <item>RIGHT</item>
+        <item>BEHIND</item>
+    </string-array>
+
+    <string name="title_activity_title_screen">BallGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

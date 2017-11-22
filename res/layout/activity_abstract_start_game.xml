@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/StartGameActivityLayout"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/playerbg"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent" >
+
+        <Button
+            android:id="@+id/start_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:onClick="onStartButtonPressed"
+            android:text="@string/startGame_button" 
+            android:layout_height="70sp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+        	android:textColor="#09273f"/>
+        
+         <Spinner
+            android:id="@+id/controller_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" 
+            android:layout_marginTop="100sp"
+            android:textColor="#09273f"
+	        android:popupBackground="#FFFFFF"/>
+
+        
+    </RelativeLayout>

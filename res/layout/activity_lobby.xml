@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LobbyActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_bg"
+    android:orientation="vertical"
+    tools:context=".LobbyActivity">
+
+    <ListView
+        android:id="@+id/PlayerListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.23" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_setVisible"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="@string/button_setvisible"
+        android:onClick="setVisibleClick"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:textColor="#09273f" />
+
+</LinearLayout>
